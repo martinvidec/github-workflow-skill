@@ -12,18 +12,17 @@ Ein Claude Code Skill für Issue-basierte Entwicklung mit GitHub Flow.
 
 ## Installation
 
+**Global (für alle Projekte):**
 ```bash
-git clone https://github.com/martinvidec/github-workflow-skill.git ~/.claude/skills/github-workflow-skill
+git clone https://github.com/martinvidec/github-workflow-skill.git ~/.claude/skills/github-workflow
 ```
 
-Oder in der Projekt-`.claude/settings.json`:
-```json
-{
-  "skills": [
-    "github.com/martinvidec/github-workflow-skill"
-  ]
-}
+**Projekt-lokal:**
+```bash
+git clone https://github.com/martinvidec/github-workflow-skill.git .claude/skills/github-workflow
 ```
+
+Der Skill wird automatisch erkannt, sobald er im `skills/`-Verzeichnis liegt.
 
 ## Workflow
 
